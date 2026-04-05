@@ -162,12 +162,6 @@ pip install -r requirements.txt
 
 Create `.env` inside `backend/` from the example:
 
-```bash
-copy .env.example .env
-```
-
-Use values like this:
-
 ```env
 DATABASE_URL=mysql+pymysql://root:password@localhost:3306/task_knowledge_db
 JWT_SECRET_KEY=your-secret-key
