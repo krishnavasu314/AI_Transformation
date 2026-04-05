@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.venv/
+env/
+backend/env/
+node_modules/
+dist/
+.env
+backend/storage/faiss.index
+backend/storage/faiss_meta.json
+backend/storage/documents/*
